@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 80vw;
+    background-color: #F5E0DB;
+}
+.container{
+    max-width: 80vw;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+.navbar li a
+{
+list-style: none;
+}
+.topleft{
+    width: 50%;
+    padding: 12px 0;
+}
+.topright{
+    width: 50%;
+    padding: 12px 0;
+}
+.section1{
+  height: 50vh;
+  width: auto;
+  color: #C64023 ;
+}
+.logo{
+    font-size: 1.3rem;
+}
+.dimg{
+    width: 25vw;
+    padding: 0 110px;
+}
+.section1 h1{
+    font-size: 2.2rem;
+}
+.section2{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.section2 h1{
+    font-size: 2.2rem;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    border-radius: 12px;
+    min-width: 20vw;
+    border: 2px solid  #ff6163;
+}
+.highlighted{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.box ul{
+    list-style-type:none;
+}
+.box ul li{
+    margin: 12px 2px;
+
+}
+.box h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 15px 0;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ background: transparent;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: transparent;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+    background: transparent;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+    background: transparent;
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+@media (max-width:600px) {
+    .navbar{
+        display: flex;
+        height: 40px;
+    }
+    .dimg{
+        width: 15vw;
+        padding: 0 90px;
+    }
+    .topright img {
+        width: 35vw;
+        height: auto;
+    }
+}
